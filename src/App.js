@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <button className="center-button" onClick={handleStartCamera}>Start Camera</button>
+      <button className="center-button" onClick={handleStartCamera}>Click Here to Know the Answer.</button>
       <div>
         <video ref={videoRef} autoPlay={true} />
       </div>
